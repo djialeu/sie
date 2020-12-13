@@ -1,0 +1,25 @@
+{
+  "name": "Gui",
+  "version": "0.0.1",
+  "author": "Bruce SIANI",
+  "Licence": "MIT",
+  "Contrinutors": [
+    {
+      "name": "Kerin DJIALEU"
+    }
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "antd": "^4.9.2",
+    "axios": "^0.21.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.13",
+    "vite-plugin-react": "^4.0.0"
+  }
+}
