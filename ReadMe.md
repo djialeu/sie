@@ -10,7 +10,7 @@ Le projet contient plusieurs modules
     puis taper la commande pip install > requirements.txt
     attendre qu'il installe toutes dépendance côté python
 3. configurer le fichier settings.py dans le dossier minepded qui se trouve dans backen/minepde/minepded
-    nommer la bb "sie" et mettez les bons identifiants pour votre bdd postgres
+    nommer la bd "sie" et mettez les bons identifiants pour votre bdd postgres
 4. Puis dans le dossier backend/minepded ou se trouve le manage.py et lancer la commande "python manage.py migrate" une fois les migrations terminer, 
     lancer le serveur django avec "python manage.py runserver"
     
