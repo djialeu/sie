@@ -36,4 +36,4 @@ class MesureSerializer(serializers.ModelSerializer):
 class ProgrammeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Programme
-        fields = ('id', 'titre')
+        fields = ('id', 'titre', 'thematiques')
