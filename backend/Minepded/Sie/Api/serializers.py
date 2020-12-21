@@ -6,7 +6,7 @@ from ..models import *
 class ThematiqueSerializer(serializers.ModelSerializer):
     class Meta:
         model = Thematique
-        fields = ('id', 'intitule', 'programmes' , 'indicateurs')
+        fields = ('id', 'intitule', 'programmes', 'indicateurs')
 
 
 class ProjetSerializer(serializers.ModelSerializer):
